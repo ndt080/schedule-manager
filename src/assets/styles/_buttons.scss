@@ -1,0 +1,22 @@
+@import "vars";
+
+.app-button {
+  min-width: 150px;
+  padding: 6px 24px;
+  border-radius: 16px;
+  border: none;
+
+  &--primary {
+    background-color: $main-color;
+  }
+
+  &--error {
+    background-color: $danger-color;
+  }
+
+  &.app-button--sm {
+    min-width: 40px;
+    padding: 6px 12px;
+    border-radius: 8px;
+  }
+}

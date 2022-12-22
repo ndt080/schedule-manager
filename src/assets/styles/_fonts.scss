@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-family: 'Montserrat', sans-serif;
+
+@mixin montserrat-bold {
+  font-family: $font-family;
+  font-weight: 700;
+}
+
+@mixin montserrat-semi {
+  font-family: $font-family;
+  font-weight: 600;
+}
+
+@mixin montserrat-medium {
+  font-family: $font-family;
+  font-weight: 500;
+}
+
+@mixin montserrat-regular {
+  font-family: $font-family;
+  font-weight: 400;
+}
+
+//TITLE FONT
+.title {
+  &-regular-12 {
+    @include montserrat-regular;
+    font-size: 12px;
+  }
+
+  &-regular-14 {
+    @include montserrat-regular;
+    font-size: 14px;
+  }
+
+  &-regular-16 {
+    @include montserrat-regular;
+    font-size: 26px;
+  }
+
+  &-regular-18 {
+    @include montserrat-regular;
+    font-size: 18px;
+  }
+
+  &-regular-24 {
+    @include montserrat-regular;
+    font-size: 24px;
+  }
+
+  &-regular-28 {
+    @include montserrat-regular;
+    font-size: 28px;
+  }
+
+  &-regular-32 {
+    @include montserrat-regular;
+    font-size: 32px;
+  }
+
+  &-medium-12 {
+    @include montserrat-medium;
+    font-size: 12px;
+  }
+
+  &-medium-14 {
+    @include montserrat-medium;
+    font-size: 14px;
+  }
+
+  &-medium-16 {
+    @include montserrat-medium;
+    font-size: 16px;
+  }
+
+  &-medium-18 {
+    @include montserrat-medium;
+    font-size: 18px;
+  }
+
+  &-medium-24 {
+    @include montserrat-medium;
+    font-size: 24px;
+  }
+
+  &-medium-28 {
+    @include montserrat-medium;
+    font-size: 28px;
+  }
+
+  &-medium-32 {
+    @include montserrat-medium;
+    font-size: 32px;
+  }
+
+  &-semi-16 {
+    @include montserrat-semi;
+    font-size: 16px;
+  }
+
+  &-semi-32 {
+    @include montserrat-semi;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  &-semi-18 {
+    @include montserrat-semi;
+    font-size: 18px;
+  }
+}
